@@ -1,0 +1,19 @@
+{
+  "name": "delivery-optimizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "optimize": "node ./bin/index.js"
+  },
+  "author": "Will Seto",
+  "license": "The Unlicense",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "fs": "^0.0.1-security",
+    "parse-address": "^1.1.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}
