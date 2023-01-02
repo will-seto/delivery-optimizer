@@ -42,7 +42,7 @@ const getInput = function () {
 
 const input = getInput();
 if (input) {
-  const Optimizer = new Optimizer();
+  const optimizer = new Optimizer();
 
-  console.log(Optimizer.optimize(input.addresses, input.drivers));
+  console.log(optimizer.optimize(input.addresses, input.drivers));
 }

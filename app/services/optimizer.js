@@ -1,7 +1,7 @@
 const Driver = require("../models/driver.js");
 const Address = require("../models/address.js");
 
-module.exports = class MatchMaker {
+module.exports = class Optimizer{
 
   optimize = function(addresses, drivers) {
     const suitabilityMatrix = this.#buildSuitabilityMatrix(addresses, drivers);
