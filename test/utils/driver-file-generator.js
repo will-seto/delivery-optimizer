@@ -12,5 +12,5 @@ for (let i = 0; i < 10; i++) {
 // Write the list of drivers to a new file, separated by newlines
 fs.writeFile('test/input/drivers.txt', drivers.join('\n'), (err) => {
   if (err) throw err;
-  console.log('The file has been saved!');
+  console.log('The file has been saved to test/input/drivers.txt');
 });

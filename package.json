@@ -2,9 +2,15 @@
   "name": "delivery-optimizer",
   "version": "1.0.0",
   "description": "",
-  "main": "bin/index.js",
+  "main": "bin/main.js",
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=12.22.12 <=19.3.1"
+  },
   "scripts": {
-    "optimize": "node ./bin/index.js"
+    "optimize": "node ./bin/main.js",
+    "generate-address-input": "node ./test/utils/address-file-generator.js",
+    "generate-driver-input": "node ./test/utils/driver-file-generator.js"
   },
   "author": "Will Seto",
   "license": "The Unlicense",
