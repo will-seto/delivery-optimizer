@@ -1,5 +1,5 @@
 // math.js
-"usse strict";
+"use strict";
 
 exports.findGCF = function (a, b) {
   while (b !== 0) {
